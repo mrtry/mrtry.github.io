@@ -1,22 +1,36 @@
 import * as React from 'react'
-
+import withStyles, { WithStyles, StyleRulesCallback } from 'material-ui/styles/withStyles'
 import Paper from 'material-ui/Paper'
-import Typography from 'material-ui/Typography'
-import 'typeface-roboto'
 
-class App extends React.Component {
-  public render() {
-    return (
-    <div>
-      <Paper>
-        <Typography variant="headline" component="h3">
-          Shinnosuke Yamamoto
-          @mrtry
-        </Typography>
-      </Paper>
-    </div>
-    )
-  }
-}
+import Profile from './Profile'
+import Sns from './Sns'
+import Skill from './Skill'
+import Job from './Job'
 
-export default App
+const App = (props: WithStyles) => (
+  <div className={props.classes.wrapper}>
+    <Paper className={props.classes.paper}>
+      <div className={props.classes.container}>
+        <Profile />
+        <Sns />
+        <Skill />
+        <Job />
+      </div>
+    </Paper>
+  </div>
+)
+
+const styles: StyleRulesCallback = theme => ({
+  wrapper: {
+    maxWidth: '960px',
+    marginRight: 'auto',
+    marginLeft: 'auto',
+  },
+  paper: {
+  },
+  container: {
+    padding: '16px',
+  },
+})
+
+export default withStyles(styles)(App)
