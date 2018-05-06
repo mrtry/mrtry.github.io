@@ -8,7 +8,7 @@ interface ProfileDictionary {
 }
 
 const profileDictionary: ProfileDictionary[] = [
-  { term: '名前', discription: '山本慎之佑 (Yamamoto Shinnosuke)' },
+  { term: '名前', discription: '山本 慎之佑 (Yamamoto Shinnosuke)' },
   { term: '誕生日', discription: '1993/04/02' },
   { term: '趣味', discription: '歌唱/料理/DIY/飲酒/マンガ/アニメ' },
   { term: 'Strength Finder', discription: '運命思考/個別化/学習欲/内省/回復思考' },

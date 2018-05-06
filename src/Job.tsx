@@ -29,7 +29,7 @@ const organizationDescription: OrganizationDescription[] = [
         duty: 'スマホアプリエンジニア',
         descriptions: [
           'Androidアプリの保守',
-          'RreactNativeによる新規アプリ開発',
+          'ReactNativeによる新規アプリ開発',
         ],
       },
       {
@@ -41,7 +41,7 @@ const organizationDescription: OrganizationDescription[] = [
     ],
   },
   {
-    organization: '株式会社コーデック',
+    organization: '株式会社コーテッグ',
     date: '2017/06 - 2017/12',
     works: [
       {
