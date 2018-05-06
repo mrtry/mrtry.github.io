@@ -16,7 +16,7 @@ const profileDictionary: ProfileDictionary[] = [
 
 const Profile = (props: WithStyles) => (
   <div className={props.classes.container}>
-    <Typography variant='headline'>
+    <Typography variant='headline' className={props.classes.headline}>
       基本情報
     </Typography>
 
@@ -35,6 +35,9 @@ const Profile = (props: WithStyles) => (
 
 const styles: StyleRulesCallback = theme => ({
   container: {
+  },
+  headline: {
+    marginTop: '0px',
   },
   dl: {
     marginTop: '8px',
