@@ -12,7 +12,6 @@ const anchorDictionary: AnchorDictionary[] = [
   { text: 'Twitter', url: 'https://twitter.com/mrtry_' },
   { text: 'Facebook', url: 'https://www.facebook.com/symmt9302' },
   { text: 'GitHub', url: 'https://github.com/mrtry' },
-  { text: 'Qiita', url: 'https://qiita.com/mrtry' },
   { text: 'SpeakerDeck', url: 'https://speakerdeck.com/mrtry' },
 ]
 
