@@ -29,7 +29,7 @@ const organizationDescription: OrganizationDescription[] = [
         duty: 'スマホアプリエンジニア',
         descriptions: [
           'Androidアプリの保守',
-          'ReactNativeによる新規アプリ開発',
+          'React Nativeによる新規アプリ開発',
         ],
       },
       {
