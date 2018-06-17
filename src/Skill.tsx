@@ -23,7 +23,7 @@ const anchorDictionary: AnchorDictionary[] = [
     ],
   },
   {
-    skill: 'ReactNative',
+    skill: 'React Native',
     descriptions: [
       'マルチプラットフォームなアプリ開発をするために利用した事がある',
       '業務では、音楽再生アプリの実装経験がある',
