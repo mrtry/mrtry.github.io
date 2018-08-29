@@ -15,6 +15,18 @@ interface WorkDescription {
 
 const organizationDescription: OrganizationDescription[] = [
   {
+    organization: '株式会社ノハナ',
+    date: '2018/07 - ',
+    works: [
+      {
+        duty: 'Androidアプリエンジニア',
+        descriptions: [
+          'Androidアプリの開発',
+        ],
+      },
+    ],
+  },
+  {
     organization: '株式会社オトバンク',
     date: '2016/04 - 2018/04',
     works: [
@@ -26,10 +38,10 @@ const organizationDescription: OrganizationDescription[] = [
         ],
       },
       {
-        duty: 'スマホアプリエンジニア',
+        duty: 'アプリエンジニア',
         descriptions: [
           'Androidアプリの保守',
-          'React Nativeによる新規アプリ開発',
+          'React Nativeによるマルチプラットフォームな新規アプリ開発',
         ],
       },
       {
