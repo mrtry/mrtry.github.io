@@ -27,6 +27,18 @@ const organizationDescription: OrganizationDescription[] = [
     ],
   },
   {
+    organization: 'SideWorks',
+    date: '2018/09 - ',
+    works: [
+      {
+        duty: 'アプリエンジニア',
+        descriptions: [
+          'Expoを用いたマルチプラットフォームアプリの開発',
+        ],
+      },
+    ],
+  },
+  {
     organization: '株式会社オトバンク',
     date: '2016/04 - 2018/04',
     works: [
